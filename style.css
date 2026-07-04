@@ -1,0 +1,106 @@
+body {
+font-family: 'Inter', sans-serif;
+line-height: 1,6;
+margin: 0;
+padding: 0;
+background-color: #DFC9C9;
+}
+header nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #916b6b;
+}
+nav a {
+    display:block;
+    text-align: right;
+    font-weight: 1000;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 8px 15px;
+    color: #ded4d1;
+    transition: 0.3s;
+}
+header h1 {
+    text-align: center;
+}    
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.button { 
+border-radius: 8px;
+padding: 10px 20px;
+cursor: pointer;
+}
+.name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.name p {
+    margin: 0;
+}
+.name-icon {
+    width: 25px;
+    height: 25px;
+}
+section {
+    margin-bottom:40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+p{
+    text-align: justify;
+}
+.map-background{
+    width: 150px;
+    height: auto;
+}
+.map-container {
+    position: relative;
+    width: 150px;
+    flex-shrink: 0;
+}
+.origen-layout {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+.origen-info{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+.origen-info p {
+   margin: 0;
+}
+.origen-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 8px;
+}
+.origen-texto p {
+    margin: 0;
+}
+.flag-background{
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+}
+.map-background{
+    width: 150px;
+    height: auto;
+    display: block;
+}
+.map-pin{
+    position: absolute;
+    top: 25%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    width: 25px;
+}
+
+
